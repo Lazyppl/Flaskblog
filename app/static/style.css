@@ -1,0 +1,47 @@
+.container-fluid h1{
+	background-color: #FFFFFF;
+	padding-left:15px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-top: 15px;
+	margin-bottom: 0px;
+	font-weight:bold;
+}
+
+.page-header {
+	padding-left:15px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;	
+}
+
+.section-top{
+	font-size: 20px;
+}
+
+ul {
+	font-size: 15px;
+	padding-top: 10px;
+	padding-right:30px;
+} 
+
+li {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.a-li {
+	color: black;
+	font-weight: bold;
+}
+
+.a-h1{
+	color: black;
+	
+}
+
+.a-h1:hover{
+	text-decoration: none;
+	color: black;
+}

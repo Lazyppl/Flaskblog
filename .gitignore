@@ -1,0 +1,11 @@
+*.pyc
+db_repository
+tmp
+venv
+appdev.db
+db_create.py
+db_downgrade.py
+db_migrate.py
+db_upgrade.py
+z_install.txt
+config.py

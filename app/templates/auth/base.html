@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>L A Z Y P E O P L E</title>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}"/>
+	</head>
+
+	<body>
+		
+		<div class="container-fluid">
+		  <h1 class="nav navbar-nav navbar-left"><a class="a-h1" href="{{url_for('auth.blog')}}">L A Z Y P E O P L E</a></h1>
+			<ul class="nav navbar-nav navbar-right">
+			  <li class="active"><a class="a-li"href="{{url_for('auth.blog')}}">B L O G</a></li>
+			  <li><a class="a-li"href="{{url_for('auth.profile')}}">P R O F I L E</a></li>
+			  <li><a class="a-li"href="{{url_for('auth.contact')}}">C O N T A C T</a></li>
+			</ul>  		 
+		</div>
+		<div>{% block content %} {% endblock %}</div>
+
+	</body>
+</html>
